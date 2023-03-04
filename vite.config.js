@@ -5,7 +5,7 @@ import viteReact from "@vitejs/plugin-react";
 export default defineConfig({
     plugins: [
         laravel({
-            input: ['resources/scss/app.scss', 'resources/js/app.js'],
+            input: ['resources/scss/app.scss', 'resources/js/app.jsx'],
             refresh: true,
         }),
         viteReact(),
