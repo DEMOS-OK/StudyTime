@@ -20,6 +20,6 @@ class IndexController extends Controller
      */
     public function index(): Response
     {
-        return Inertia::render('Index');
+        return Inertia::render('StudyTime/Index/Index');
     }
 }

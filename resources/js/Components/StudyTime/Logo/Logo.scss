@@ -1,0 +1,16 @@
+.logo {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    height: inherit;
+}
+
+.logo__img {
+    height: 40px;
+}
+
+.logo__title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #F6F6F8;
+}

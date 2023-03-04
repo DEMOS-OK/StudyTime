@@ -1,0 +1,34 @@
+.header {
+    background: #1C1C33;
+    height: 105px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__navbar {}
+}
+
+.navbar__items {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar__item {}
+
+.navbar__link {
+    transition: all ease .3s;
+    color: var(--header-text-color);
+}
+
+.navbar__link:hover {
+    color: var(--main-elements-color);
+    border-bottom: 1px solid var(--main-elements-color);
+    padding-bottom: 30px;
+}
