@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Test = () => {
+const Index = () => {
     return (
         <div>
             <h1>Hello, world!</h1>
@@ -9,4 +9,4 @@ const Test = () => {
     );
 };
 
-export default Test;
+export default Index;
